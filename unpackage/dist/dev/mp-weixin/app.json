@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/message/message",
+    "pages/index/index",
+    "pages/scenario/scenario",
+    "pages/user/user"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "iotui",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#28C76F",
+    "list": [
+      {
+        "text": "消息",
+        "pagePath": "pages/message/message",
+        "iconPath": "static/tabs/message.png",
+        "selectedIconPath": "static/tabs/message-active.png"
+      },
+      {
+        "text": "设备",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/device.png",
+        "selectedIconPath": "static/tabs/device-active.png"
+      },
+      {
+        "text": "场景",
+        "pagePath": "pages/scenario/scenario",
+        "iconPath": "static/tabs/scenario.png",
+        "selectedIconPath": "static/tabs/scenario-active.png"
+      },
+      {
+        "text": "个人",
+        "pagePath": "pages/user/user",
+        "iconPath": "static/tabs/user.png",
+        "selectedIconPath": "static/tabs/user-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
